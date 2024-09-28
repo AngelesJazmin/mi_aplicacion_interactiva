@@ -1,6 +1,6 @@
 # Ejercicio 1: Función de saludo simple
 def saludar(nombre):
-    return f"Hola, {nombre}!"
+    return f"Hola, {nombre}! esto es un programa interactivo :)"
 
 # Ejercicio 2: Suma de dos números
 def sumar(a, b):
