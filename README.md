@@ -26,6 +26,7 @@ aplicacion_interactiva_funciones/
 ├── README.md                # Documentación del proyecto
 ├── requirements.txt         # Dependencias necesarias para ejecutar la aplicación
 └── imágenes/                # Carpeta opcional para capturas de pantalla
+```
 
 ## 🚀 ¿Cómo Ejecutar el Proyecto?
 
