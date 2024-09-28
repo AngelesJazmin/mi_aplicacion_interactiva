@@ -26,3 +26,34 @@ aplicacion_interactiva_funciones/
 ├── README.md                # Documentación del proyecto
 ├── requirements.txt         # Dependencias necesarias para ejecutar la aplicación
 └── imágenes/                # Carpeta opcional para capturas de pantalla
+
+## 🚀 ¿Cómo Ejecutar el Proyecto?
+
+1. Clona el repositorio:
+
+   ```bash
+   git clone https://github.com/tu_usuario/mi_aplicacion_interactiva.git
+   ```
+
+2. Cambia al directorio del proyecto:
+
+   ```bash
+   cd mi_aplicacion_interactiva
+   ```
+
+3. Instala las dependencias:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. Ejecuta la aplicación:
+
+   ```bash
+   streamlit run app.py
+   ```
+
+## 📦 Requisitos
+
+- Python 3.8+
+- Streamlit 1.15.2
