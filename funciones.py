@@ -25,7 +25,7 @@ def sumar_lista(numeros):
 
 # Ejercicio 6: Funciones con valores predeterminados
 def producto(nombre, cantidad=1, precio_unitario=10):
-    return f"Total a pagar por {cantidad} unidad(es) de {nombre}: {cantidad * precio_unitario}"
+    return f"Total a pagar por {cantidad} unidad(es) de {nombre}s: {cantidad * precio_unitario}"
 
 # Ejercicio 7: Números pares e impares
 def numeros_pares_e_impares(lista):

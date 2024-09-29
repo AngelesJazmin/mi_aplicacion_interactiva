@@ -15,7 +15,7 @@ titulos = {
     "Área de un triángulo": "📐 Área de un Triángulo",
     "Calculadora de descuento": "💸 Calculadora de Descuento",
     "Suma de una lista de números": "🧮 Suma de una Lista de Números",
-    "Funciones con valores predeterminados": "📦 Cálculo de Productos",
+    "Cálculo de productos": "📦 Cálculo de Productos",
     "Números pares e impares": "🔢 Pares e Impares",
     "Multiplicación con *args": "✖️ Multiplicación con *args",
     "Información de una persona": "🧑 Información Personal",
@@ -62,7 +62,7 @@ elif seleccion == "Suma de una lista de números":
         lista_numeros = [float(num) for num in numeros.split(",") if num.strip()]
         st.write(f"La suma de la lista es: {sumar_lista(lista_numeros)}")
 
-elif seleccion == "Funciones con valores predeterminados":
+elif seleccion == "Cálculo de productos": #funciones con valores predeterminados
     nombre_producto = st.text_input("Nombre del producto:", "")
     cantidad = st.number_input("Cantidad:", value=1)
     precio_unitario = st.number_input("Precio por unidad:", value=10.0)
